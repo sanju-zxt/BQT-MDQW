@@ -5,7 +5,7 @@
 ## Provenance
 
 - Master seed: `20260930`
-- Generated (UTC): `2026-09-30T16:36:07+00:00`
+- Generated (UTC): `2026-09-30T16:43:26+00:00`
 - `PYTHONHASHSEED`: `None` (reported for provenance only; the walk prior is bit-reproducible across processes without pinning it, because the cycle cover in `src.quantum_walk.shunt_decomposition` is selected on integer keys rather than hash-order-sensitive string keys)
 
 ### Legend
