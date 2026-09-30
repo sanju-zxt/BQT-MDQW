@@ -76,7 +76,7 @@ BQT-MDQW is that it is honest, reproducible, and tested.
 
 | Project | Link | What it demonstrates |
 |---|---|---|
-| BQT-MDQW | `C:\Projects\BQT-MDQW` (local; push to `github.com/sanju-zxt/BQT-MDQW`) | Qiskit teleportation, coined quantum walk, classical router, 337 tests, 6 experiments |
+| BQT-MDQW | https://github.com/sanju-zxt/BQT-MDQW | Qiskit teleportation, coined quantum walk, classical router, 337 tests, 6 experiments |
 | Lattice | local only — **not yet public** | Post-quantum crypto platform, 40 endpoints, ML-KEM/ML-DSA migration, CBOM |
 | Resonance LM | `C:\Projects\resonance-lm` (local) | Coupled-oscillator experiment; paper draft, unsubmitted |
 | Hack-Matrix | https://github.com/sanju-zxt/Hack-Matrix | TypeScript hackathon build |
@@ -85,11 +85,9 @@ BQT-MDQW is that it is honest, reproducible, and tested.
 | BharatLensAI | https://github.com/sanju-zxt/BharatLensAI | Multilingual image understanding |
 | SignBridge2Vision | https://github.com/sanju-zxt/SignBridge2Vision | Speech-to-sign accessibility system |
 
-## Two things to fix before submitting
+## One thing left to fix before submitting
 
-1. **BQT-MDQW has no GitHub remote yet.** The Round 1 form asks for repositories.
-   Push it first, then put the real URL in place of the local path above.
-2. **Lattice is not a git repository and contains `backend/.env`.** It is the
+1. **Lattice is not a git repository and contains `backend/.env`.** It is the
    strongest quantum-adjacent item I have and it cannot currently be linked. The
    `.gitignore` does exclude `.env`, so `git init` there is safe — but confirm
    the exclusion with `git status` before the first commit, and rotate any
